@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;600;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Exo",sans-serif;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:87vh;
+    background: #293462;
+}
+.ganesha{
+    position:relative;
+    width:400px;
+    height:400px;
+    margin:auto;
+    margin-top:10%;
+}
+.crown{
+    position:absolute;
+    background: #ffff00;
+    width:35px;
+    height:35px;
+    top:0;
+    left:44%;
+    border-radius:50%;
+}
+.crown1{
+    position:absolute;
+    background: #a440ff;
+    width:60px;
+    height:60px;
+    top:5%;
+    left:40.8%;
+    border-radius:50%;
+
+}
+.crown2{
+    position:absolute;
+    background: #ff117f;
+    width:102px;
+    height:25px;
+    top:15%;
+    left:35.5%;
+    border-radius:20px;
+}
+.face{
+    position:absolute;
+    background: #e1e1e1;
+    width:90px;
+    height:80px;
+    top:21%;
+    left:37.1%;
+    border-top-left-radius:0%;
+    border-top-right-radius:0%;
+    border-bottom-right-radius:30px;
+    border-bottom-left-radius:30px;
+}
+.trishool{
+    z-index:2;
+    position:absolute;
+    background: #ff3030;
+    top:22%;
+    left:45.6%;
+    clip-path:polygon(45% 5%, 45% 60%,30% 60%,30% 15%,8% 0%,0% 8%, 20% 20%,
+    20% 70%, 45% 70%, 45% 100%, 55% 100%,55% 70%,
+    80% 70%,80% 20%,100% 8%,92% 0%,70% 15%,70% 60%,55% 60%,55% 5%);
+    width:20px;
+    height:20px;
+}
+.eye{
+    position:absolute;
+    background: #fff;
+    width:12px;
+    height:12px;
+    top:28%;
+    left:40.4%;
+    border-radius:50%;
+}
+.eye1{
+    position:absolute;
+    background: #fff;
+    width:12px;
+    height:12px;
+    top:28%;
+    left:53.1%;
+    border-radius:50%;
+}
+.eyes1{
+    position:absolute;
+    background:#000;
+    width:6px;
+    height:6px;
+    top:28%;
+    left:40.4%;
+    border-radius:42%; 
+    animation:rotate 2s linear infinite;
+}
+.eyes2{
+    position:absolute;
+    background:#000;
+    width:6px;
+    height:6px;
+    top:28%;
+    left:53.1%;
+    border-radius:42%; 
+    animation:rotate 2s linear infinite;
+}
+.tusk{
+    position:absolute;
+    background: #ff117f;
+    width:12px;
+    height:65px;
+    top:35%;
+    left:53.1%;
+    border-radius:50%;
+    transform: rotate(156deg);
+}
+.tusk1{
+    position:absolute;
+    background: #ff117f;
+    width:12px;
+    height:65px;
+    top:36%;
+    right:58.1%;
+    border-radius:50%;
+    transform: rotate(205deg);
+}
+.trunk{
+  position:absolute;
+  height:33%;
+  width:15%;
+  background: #e1e1e1;
+  border-radius:0 0 100% 0;
+  z-index:1;
+  top:34%;
+  left:40.5%;
+  box-shadow:0px 4px 9px -6px black;
+}
+.trunk1{
+    position:absolute;
+    height:17%;
+    width:9%;
+    background: #e1e1e1;
+    border-radius:0 0 100% 0;
+    z-index:1;
+    top:56%;
+    left:35.5%;
+    box-shadow:0px 4px 9px -6px black;
+    transform:rotate(45deg);
+  }
+  .line,.line1,.line2{
+    position:absolute;
+    background:#ff117f;
+    width:30px;
+    height:5px;
+    top:43%;
+    right:49.1%;
+    border-radius:34%;
+    z-index:3;
+  }
+  .line1{
+    top:45%;
+  }
+  .line2{
+    top:47%;
+  }
+  .ear{
+    position:absolute;
+    background: #e1e1e1;
+    width:57px;
+    height:60px;
+    top:21%;
+    left:24.1%;
+    border-top-left-radius:0%;
+    border-top-right-radius:0%;
+    border-bottom-right-radius:30px;
+    border-bottom-left-radius:30px;
+    transform:rotate(90deg)
+  }
+  .ear1{
+    position:absolute;
+    background: #e1e1e1;
+    width:58px;
+    height:60px;
+    top:21%;
+    right:27.5%;
+    border-top-left-radius:0%;
+    border-top-right-radius:0%;
+    border-bottom-right-radius:30px;
+    border-bottom-left-radius:30px;
+    transform:rotate(-90deg)
+  }
+h1{
+    position:absolute;
+    color:#fff;
+    top:69%;
+    font-weight:800;
+}
+@keyframes rotate{
+    0%{
+       top:28%;
+    }
+    50%{
+      top:30%;
+    }
+    100%{
+     top:28%;
+    }
+}
